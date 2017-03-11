@@ -1,0 +1,149 @@
+body {
+	background-image: url(img/fon.jpg);
+	z-index: 11;
+	font-family: "Arial black";
+}
+.box1 {
+	width: 1000px;
+	height: 900px;
+	background-color: white;
+	position: absolute;
+    top: 0px;
+    bottom: 20px;
+    left: 150px;
+    right: 100px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+.header {
+	padding-left: 150px;
+	position: absolute;
+	top: 45px;
+	width: 320px;
+	height: 180px;
+	float: left;
+}
+.header p {
+	color: #069EB7;
+	position: absolute;
+	top: 100px;
+	left: 190px;
+	font-size: 13px;
+}
+.contacts ul {
+	float: right;
+	list-style-type: none;
+	color: #069EB7;
+	font-size: 13px;
+	position: absolute;
+	right: 0px;
+    top: 0px;
+    left: 800px;
+    width: 175px;
+}
+.country ul {
+	list-style-type: none;
+	font-size: 8px;
+	display: inline-flex;
+	text-align: center;
+	position: absolute;
+	left: 800px;
+    top: 90px;
+}    
+.photo img {
+	position: absolute;
+	top: 213px;
+    left: 150px;
+    width: 1000px;
+}
+
+.sidebar ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    position: absolute;
+	top: 451px;
+	left: 150px;
+	width: 1000px;
+	height: 39px;
+	background-color: #323433;
+	text-align: center;
+	z-index: 10;
+}
+.sidebar li {
+	height: 39px;
+	width: 140px;
+	font-size: 12px;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #323433;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: #323433;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #323433;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #323433;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.fon {
+    font-size: 13px; 
+    float: left; 
+    position: absolute;
+    z-index: 9;
+    top: 490px;
+    left: 150px;
+    width: 1000px;
+    height: 430px;
+
+}
+.leftColumn {
+	background-color: #BDBDBD;
+	padding-left: 10px;
+    width: 200px;
+    height: 410px;
+    float: left;
+}    
+.rightColumn {
+	background-color: #BDBDBD;
+	padding-left: 10px;
+    width: 200px;
+    height: 410px;
+    float: right;
+}
